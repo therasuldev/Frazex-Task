@@ -1,0 +1,54 @@
+name: frazex_task
+description: A new Flutter project.
+
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.2
+  http: ^0.13.4
+  html: ^0.15.0
+  flutter_bloc: ^8.0.1
+  bloc: ^8.0.3
+  json_annotation: ^4.6.0
+  intl: ^0.17.0
+  equatable: ^2.0.3
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+  build_runner: ^2.1.11
+  freezed: ^2.0.3+1
+  freezed_annotation: ^2.0.3
+  json_serializable: ^6.2.0
+
+
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/i18n/
+  
